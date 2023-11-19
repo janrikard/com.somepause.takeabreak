@@ -9,6 +9,14 @@ class MyApp extends Homey.App {
    */
   async onInit() {
     this.log('MyApp has been initialized');
+
+    const card = this.homey.flow.getActionCard('Pause');
+
+    card.registerRunListener(async (args) => {
+      let delay = ms => new Promise(res => setTimeout(res, ms));
+      const { Seconds } = args;
+      await delay(Seconds*1000);
+    })
   }
 
 }

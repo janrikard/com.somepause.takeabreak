@@ -1,9 +1,10 @@
 {
+  "id": "Pause",
   "title": {
     "en": "Pause"
   },
   "hint": {
-    "en": "Pause the flow"
+    "en": "Pause the flow for X seconds(1-3600)"
   },
   "args": [
     {
