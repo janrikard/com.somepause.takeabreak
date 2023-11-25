@@ -1,1 +1,1 @@
-Pause the flow dynamicly
+Pause the flow dynamicly by a tag or a variable.

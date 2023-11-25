@@ -1,6 +1,7 @@
 {
   "id": "com.somepause.takeabreak",
   "version": "1.0.0",
+  "brandColor": "#8c5b00",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
