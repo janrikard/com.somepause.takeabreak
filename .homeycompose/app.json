@@ -1,7 +1,8 @@
 {
   "id": "com.somepause.takeabreak",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "brandColor": "#8c5b00",
+  "homeyCommunityTopicId": 95891,
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -25,5 +26,9 @@
   "author": {
     "name": "Rikard Nilsson",
     "email": "janrikard@gmail.com"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/janrikard/com.somepause.takeabreak/issues"
+  },
+  "source": "https://github.com/janrikard/com.somepause.takeabreakl"
 }
